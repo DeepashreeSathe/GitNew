@@ -2,10 +2,6 @@
 #include<string.h>
 int main()
 {
-	char name[25],last[25];
-	fgets(name,25,stdin);
-	printf("\nLength = %d\n",strlen(name));
-	name[strlen(name)-1]='\0';
-	fgets(last,25,stdin);
+	char name[25],last[25],address[25];
 	return 0;
 }
