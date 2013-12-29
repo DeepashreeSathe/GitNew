@@ -3,5 +3,6 @@
 int main()
 {
 	char name[25],last[25],address[25];
+	printf("Hello");
 	return 0;
 }
